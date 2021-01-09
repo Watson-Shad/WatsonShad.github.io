@@ -1,1 +1,3 @@
-document.getElementById("currentdate").textContent = new Date().toLocaleString();
+
+var lastMod = document.lastModified;
+document.getElementById("currentdate").textContent = lastMod;
