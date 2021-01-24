@@ -1,0 +1,117 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: rgb(102, 153, 204);
+}
+
+header,
+nav,
+main,
+h2,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    font-family: 'Fraunces', serif;
+}
+
+header {
+    text-align: right;
+    padding: 1.0rem;
+    border-radius: 10px;
+    margin-bottom: 65px;
+}
+
+p img {
+    float: left;
+}
+
+/* Very Small Screen View */
+@media only screen and (min-width:19.5em) {
+    nav {
+        background-color: #36454f;
+        text-align: center;
+        box-shadow: 0 2px 15px gray;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+
+    nav a:hover {
+        background-color: #bbb;
+        color: #36454f;
+    }
+
+}
+
+/* Desktop Screen View*/
+@media only screen and (min-width: 35em) {
+    nav {
+        background-color: #36454f;
+        text-align: center;
+        box-shadow: 0 2px 15px gray;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: none;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        display: inline-flex;
+        color: #fff;
+        text-align: right;
+        padding: 1.0rem;
+        font-size: 0.95rem;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #bbb;
+        color: #36454f;
+    }
+
+}
+
+h2 {
+    border-radius: 10px;
+    padding: 1.0rem;
+    text-align: left;
+    background-color: rgb(207, 219, 221)
+}
+
+h2 p {
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #36454f;
+    color: white;
+    text-align: center;
+    padding: 1.0rem;
+    border-radius: 10px;
+}
+
+span {
+    font-weight: 100;
+    color: yellow;
+}
