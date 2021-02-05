@@ -1,0 +1,245 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: rgb(102, 153, 204);
+}
+
+header,
+nav,
+main,
+h2,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    font-family: 'Fraunces', serif;
+}
+
+header {
+    text-align: right;
+    padding: 1.0rem;
+    border-radius: 10px;
+    margin-bottom: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font-family: 'Monoton', cursive;
+    font-size: xx-large;
+    margin: 0;
+}
+
+div p {
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    color: rgb(192, 63, 91);
+    font-size: medium;
+}
+
+p img {
+    float: left;
+}
+
+main div {
+    border: black;
+    border-style: solid;
+    background-color: white;
+    margin: 0;
+    padding: 5% 15%;
+    margin: 5px 0;
+    font-size: medium;
+    font-family: 'Fraunces', serif;
+
+}
+
+/* Very Small Screen View */
+@media only screen and (min-width:19.5em) {
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #36454f;
+    }
+
+    .Navigation {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .Navigation li:first-child {
+        display: block;
+        text-align: center;
+    }
+
+    .Navigation li {
+        display: none;
+    }
+
+    .Navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    .Navigation a:hover {
+        color: white;
+        background-color: gray;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    main div {
+        border: rgb(192, 63, 91);
+        border-style: solid;
+        background-color: white;
+        margin: 0;
+        padding: 5% 15%;
+        margin: 5px 0;
+        font-size: small;
+        font-family: 'Fraunces', serif;
+
+    }
+
+
+
+}
+
+/* Medium view */
+@media only screen and (min-width: 35em) {
+    .Navigation {
+        display: flex;
+    }
+
+    .Navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .Navigation a {
+        text-align: center;
+    }
+
+    .Navigation li:first-child {
+        display: none;
+    }
+
+    main div {
+        border: grey;
+        border-style: solid;
+        background-color: white;
+        margin: 0;
+        padding: 5% 15%;
+        margin: 5px 0;
+        font-size: medium;
+        font-family: 'Fraunces', serif;
+
+    }
+
+
+}
+
+/* tablet  + Desktop Screen View*/
+@media only screen and (min-width: 55em) {
+    .Navigation {
+        display: flex;
+    }
+
+    .Navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .Navigation a {
+        text-align: center;
+    }
+
+    .Navigation li:first-child {
+        display: none;
+    }
+
+    main div {
+        border: black;
+        border-style: solid;
+        background-color: white;
+        margin: 0;
+        padding: 5% 15%;
+        margin: 5px 0;
+        font-size: large;
+        font-family: 'Fraunces', serif;
+
+    }
+
+}
+
+h2 {
+    border-radius: 10px;
+    padding: 1.0rem;
+    text-align: center;
+    background-color: rgb(207, 219, 221)
+}
+
+h2 p {
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #36454f;
+    color: white;
+    text-align: center;
+    padding: 1.0rem;
+    border-radius: 10px;
+}
+
+footer p {
+    color: yellow;
+}
+
+span {
+    font-weight: 100;
+    color: white;
+}
+.herodiv{
+    margin: 10px auto;
+    position:relative;
+    border: 1px dashed black;
+    width: 530px;
+    height: 300px;
+}
+.hero-ph{
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid;
+    width: 78%;
+    height: 250;
+}
+.hero-ph img{
+    position: absolute;
+    top: 0%; 
+    left: 0%;
+}
+.weathersummary{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    background: radial-gradient(rgb(180, 87, 11), rgb(226, 137, 78));
+    border: 1px solid grey;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+    
+}
+.weathersummary p{
+    color: black;
+}
