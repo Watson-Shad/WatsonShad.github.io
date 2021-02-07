@@ -45,17 +45,7 @@ p img {
     float: left;
 }
 
-main div {
-    border: black;
-    border-style: solid;
-    background-color: white;
-    margin: 0;
-    padding: 5% 15%;
-    margin: 5px 0;
-    font-size: medium;
-    font-family: 'Fraunces', serif;
 
-}
 
 /* Very Small Screen View */
 @media only screen and (min-width:19.5em) {
@@ -97,17 +87,7 @@ main div {
         display: block;
     }
 
-    main div {
-        border: rgb(192, 63, 91);
-        border-style: solid;
-        background-color: white;
-        margin: 0;
-        padding: 5% 15%;
-        margin: 5px 0;
-        font-size: small;
-        font-family: 'Fraunces', serif;
-
-    }
+    
 
 
 
@@ -133,18 +113,7 @@ main div {
         display: none;
     }
 
-    main div {
-        border: grey;
-        border-style: solid;
-        background-color: white;
-        margin: 0;
-        padding: 5% 15%;
-        margin: 5px 0;
-        font-size: medium;
-        font-family: 'Fraunces', serif;
-
-    }
-
+   
 
 }
 
@@ -169,15 +138,11 @@ main div {
     }
 
     main div {
-        border: black;
-        border-style: solid;
-        background-color: white;
         margin: 0;
         padding: 5% 15%;
         margin: 5px 0;
         font-size: large;
         font-family: 'Fraunces', serif;
-
     }
 
 }
@@ -212,15 +177,14 @@ span {
     color: white;
 }
 .herodiv{
-    margin: 10px auto;
+    margin: 0px ;
     position:relative;
-    border: 1px dashed black;
+    border: 1px solid black;
     width: 530px;
     height: 300px;
 }
 .hero-ph{
-    margin: 10px auto;
-    background-color: white;
+    margin: 0px auto;
     border: 1px solid;
     width: 78%;
     height: 250;
@@ -242,4 +206,86 @@ span {
 }
 .weathersummary p{
     color: black;
+}
+.forecast{
+    font-size:x-large;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 1.0rem;
+    text-align: center;
+    background-color: rgb(207, 219, 221)
+
+}
+.forecast-numbers{
+    width:auto;
+}
+.Weather-Table{
+    width: 100%;
+    position: relative;
+    border:solid;
+}
+.day{
+    text-align: 50;
+    background-color: rgb(226, 137, 78);
+    
+}
+.picture img{
+    align-content: right;
+}
+.degree{
+    text-align: center;
+}
+.articleBox {
+    margin: 1px;
+    position:relative;
+    text-align: left;
+    width: 550px;
+    height: 500px;
+    display: table-row-group;
+  
+}
+.ski{
+    width: 50%;
+    float: right;
+    margin: 1rem 2rem 1rem 2rem;
+    border: 4px solid #F4B490;
+}
+.articleBox p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: large;
+}
+.articleBox h3{
+    margin: 1rem 1rem 0.5rem 1rem;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.info{
+    display: block;
+    border: solid;
+    border-color: black;
+}
+.contact{
+   
+   display: block;
+    margin-left: 200px;
+    text-align: right;
+    
+}
+.map{
+    float: left;
+    width: 50%;
+  display: block;
 }
